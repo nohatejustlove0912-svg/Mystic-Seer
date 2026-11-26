@@ -1,0 +1,1 @@
+document.querySelector('#shopCards').innerHTML=['Cord Cutting','Love Binding','Protection','Manifestation'].map(n=>`<article class="tile center"><div class="symbol">♨</div><h3>${n}</h3><small>Coming soon</small></article>`).join('');
